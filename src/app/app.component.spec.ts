@@ -23,14 +23,14 @@ describe(`(1) TEST del componente "AppComponent"`, () => {
 
   });
 
-  //TODO:Aislado! 
+  //TODO:Aislado!
   it('Debe de existir el AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance
     expect(app).toBeTruthy(); //TODO: ✔
   });
 
-  //TODO:Aislado! 
+  //TODO:Aislado!
   it('Debe retornar formulario invalido', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance
@@ -51,8 +51,8 @@ describe(`(1) TEST del componente "AppComponent"`, () => {
     let password = app.form.controls['password']
     let result = app.form.controls['result']
 
-    email.setValue('leifer33@gmail.com')
-    password.setValue('123456')
+    email.setValue('gonzalomamani.dev@gmail.com')
+    password.setValue('12345')
     result.setValue('1')
 
 
