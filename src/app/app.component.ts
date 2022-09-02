@@ -11,8 +11,8 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class AppComponent implements OnInit {
   showEmoji: boolean = false;
-  title = 'Ejercicio #1 Unit Testing Angular';
-  subTitle = 'Estamos creando este ejercicio para comenzar a aprender sobre pruebas unitarias en componentes'
+  title = 'Ejercicio #1 Unit Testing Angular y GitHub Actions';
+  subTitle = 'Estamos creando este ejercicio para comenzar a aprender sobre pruebas unitarias en componentes e integración y despliegue continuo'
   contentEmoji = ''
   dataSession: any;
   form: FormGroup = new FormGroup({})
@@ -49,7 +49,7 @@ export class AppComponent implements OnInit {
     const password = this.form.value.password;
 
     this.authService.login(email, password)
-      .subscribe(res => this.dataSession = res, //TODO: Objecto usuario 
+      .subscribe(res => this.dataSession = res, //TODO: Objecto usuario
         (err: any) => this.isCheck = 'ERROR_USER')
   }
 }
