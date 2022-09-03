@@ -17,7 +17,7 @@ export class DataService {
 
   //TODO: Recibe 3 parametros 2 numeros y una respuesta
   checkOperation(numberA: number, numberB: number, result: number): boolean {
-    const check = (Number(numberA) * Number(numberB)) === Number(result)
+    const check = (Number(numberA) + Number(numberB)) === Number(result)
     return check
   }
 }
