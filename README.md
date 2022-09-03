@@ -1,4 +1,4 @@
-# ClaseUnitTest y github actions
+# Github Actions [![CI Angular for proyect EGPP](https://github.com/gdev-bol/angular-github-actions-egpp/actions/workflows/deploy.yml/badge.svg)](https://github.com/gdev-bol/angular-github-actions-egpp/actions/workflows/deploy.yml)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.5.
 

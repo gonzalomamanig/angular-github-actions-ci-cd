@@ -1,10 +1,10 @@
-name: Deploy to Firebase Hosting on main
+name: CI Angular for proyect EGPP
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
-  build_and_deploy:
+  test-build-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -28,3 +28,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ANGULAR_GITHUB_ACTIONS }}'
           projectId: angular-github-actions
+          channelId: 4ngul4r
