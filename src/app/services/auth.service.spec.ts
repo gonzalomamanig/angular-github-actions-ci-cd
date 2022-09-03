@@ -22,8 +22,8 @@ describe('(3) Prueba a "AuthService"', () => {
     //TODO: Mock de datos!
 
     const mockUserCredentials = { //TODO: Exito!
-      email: 'leifer33@gmail.com',
-      password: '123456'
+      email: 'gonzalomamani.dev@gmail.com',
+      password: '12345'
     }
 
     const mockResultLogin = {
@@ -40,7 +40,7 @@ describe('(3) Prueba a "AuthService"', () => {
     const { email, password } = mockUserCredentials
 
     service.login(email, password)
-      .subscribe(resultado => { //TODO: No se sabe el tiempo 
+      .subscribe(resultado => { //TODO: No se sabe el tiempo
         expect(resultado).toEqual(mockResultLogin)
         done()
       })
@@ -51,7 +51,7 @@ describe('(3) Prueba a "AuthService"', () => {
     //TODO: Mock de datos!
 
     const mockUserCredentials = {
-      email: 'leifer33@gmail.com',
+      email: 'gonzalomamani.dev@gmail.com',
       password: ''
     }
 
