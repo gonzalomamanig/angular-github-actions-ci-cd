@@ -37,7 +37,7 @@ describe(`(1) TEST del componente "AppComponent"`, () => {
     fixture.detectChanges() //TODO: <---------------
 
     const email = app.form.controls['email']
-    email.setValue('leifer33@gmail.com')
+    email.setValue('gonzalomamani.dev@gmail.com')
 
     expect(app.form.invalid).toBeTrue(); //TODO: ✔
   });
@@ -68,8 +68,8 @@ describe(`(1) TEST del componente "AppComponent"`, () => {
   //   let email = app.form.controls['email']
   //   let password = app.form.controls['password']
 
-  //   email.setValue('leifer33@gmail.com')
-  //   password.setValue('123456')
+  //   email.setValue('gonzalomamani.dev@gmail.com')
+  //   password.setValue('12345')
 
   //   const btnElement = fixture.debugElement.query(By.css('button.btn'))
   //   btnElement.nativeElement.click()
