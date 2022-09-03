@@ -11,8 +11,8 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class AppComponent implements OnInit {
   showEmoji: boolean = false;
-  title = 'Ejercicio #1 Unit Testing Angular y GitHub Actions';
-  subTitle = 'Estamos creando este ejercicio para comenzar a aprender sobre pruebas unitarias en componentes e integración y despliegue continuo'
+  title = 'PEC04 GitHub Actions CI/CD Angular app';
+  subTitle = 'Estamos creando este ejercicio para comenzar a aprender la integración y despliegue continuo con GitHub Actions'
   contentEmoji = ''
   dataSession: any;
   form: FormGroup = new FormGroup({})

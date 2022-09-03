@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/clase-unit-test'),
+      dir: require('path').join(__dirname, './coverage/github-actions-egpp'),
       subdir: '.',
       reporters: [
         { type: 'html' },
