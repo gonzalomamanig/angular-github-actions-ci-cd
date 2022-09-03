@@ -1,5 +1,8 @@
   name: CI Angular for proyect EGPP
-  on: push
+  on:
+    push:
+      branches:
+        - develop
   jobs:
     unit-test:
       runs-on: ubuntu-latest
