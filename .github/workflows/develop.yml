@@ -3,6 +3,7 @@
     push:
       branches:
         - develop
+        - 'release/**'
   jobs:
     unit-test:
       runs-on: ubuntu-latest
