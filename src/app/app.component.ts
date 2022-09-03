@@ -11,7 +11,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class AppComponent implements OnInit {
   showEmoji: boolean = false;
-  title = 'PEC04 GitHub Actions CI/CD Angular app';
+  title = 'PEC04 GitHub Actions CI/CD Angular app - PRUEBA 2';
   subTitle = 'Estamos creando este ejercicio para comenzar a aprender la integración y despliegue continuo con GitHub Actions'
   contentEmoji = ''
   dataSession: any;
