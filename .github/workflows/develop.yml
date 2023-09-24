@@ -1,4 +1,4 @@
-name: CI Angular for proyect EGPP
+name: CI Angular for proyect
 on:
   push:
     branches:
